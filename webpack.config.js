@@ -54,5 +54,8 @@ module.exports = {
 	node: {
 		fs: 'empty',
 		module: 'empty'
+	},
+	resolve: {
+		extensions: ['.ts', '.js', '.json']
 	}
 }
