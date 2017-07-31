@@ -19,6 +19,10 @@ const commonPlugins = [
 		{
 			from: 'src/options.html',
 			to: 'options.html'
+		},
+		{
+			from: 'src/icon.png',
+			to: 'icon.png'
 		}
 	])
 ]
