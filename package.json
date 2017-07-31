@@ -1,6 +1,6 @@
 {
 	"name": "prettier-chrome",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Prettier extension for Chrome",
 	"main": "dist/index.js",
 	"devDependencies": {
