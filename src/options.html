@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prettier options</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+
+<body>
+    <form class="pure-form pure-form-aligned" id="options-form">
+        <fieldset>
+            <div class="pure-control-group">
+                <label for="print-width">Print Width</label>
+                <input id="print-width" type="number" name="print-width">
+            </div>
+            <div class="pure-control-group">
+                <label for="tab-width">Tab Width</label>
+                <input type="number" id="tab-width" name="tab-width"></input>
+            </div>
+            <div class="pure-control-group">
+                <label for="tabs">Tabs</label>
+                <input type="checkbox" id="tabs" name="tabs"></input>
+            </div>
+            <div class="pure-control-group">
+                <label for="semicolons">Semicolons</label>
+                <input type="checkbox" id="semicolons" name="semicolons"></input>
+            </div>
+            <div class="pure-control-group">
+                <label for="quotes">Quotes</label>
+                <select id="quotes" name="quotes">
+                    <option value="single">single</option>
+                    <option value="double">double</option>
+                </select>
+            </div>
+            <div class="pure-control-group">
+                <label for="trailing-comma">Trailing Comma</label>
+                <select id="trailing-comma" name="trailing-comma">
+                    <option value="none">none</option>
+                    <option value="es5">es5</option>
+                    <option value="all">all</option>
+                </select>
+            </div>
+            <div class="pure-control-group">
+                <label for="bracket-spacing">Bracket Spacing</label>
+                <input type="checkbox" id="bracket-spacing" name="bracket-spacing"></input>
+            </div>
+            <div class="pure-control-group">
+                <label for="jsx-brackets">JSX Brackets</label>
+                <input type="checkbox" id="jsx-brackets" name="jsx-brackets"></input>
+            </div>
+            <div class="pure-controls">
+                <button type="submit" class="pure-button pure-button-primary">Save</button>
+                <span class="pure-form-message-inline" id="form-status"></span>
+            </div>
+        </fieldset>
+    </form>
+
+
+    <script src="options.js"></script>
+
+</body>
+
+</html>
