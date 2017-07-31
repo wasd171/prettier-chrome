@@ -1,0 +1,26 @@
+{
+  "name": "prettier-chrome",
+  "version": "0.0.1",
+  "description": "Prettier extension for Chrome",
+  "main": "dist/index.js",
+  "dependencies": {
+    "fuse-box": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wasd171/prettier-chrome.git"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": "wasd171",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wasd171/prettier-chrome/issues"
+  },
+  "homepage": "https://github.com/wasd171/prettier-chrome#readme"
+}
