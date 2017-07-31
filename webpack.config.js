@@ -26,7 +26,8 @@ const commonPlugins = [
 		}
 	])
 ]
-const prodPlugins = [new BabiliPlugin()]
+// const prodPlugins = [new BabiliPlugin()]
+const prodPlugins = []
 
 const isProd = process.env.NODE_ENV === 'production'
 
@@ -40,7 +41,7 @@ module.exports = {
 		filename: '[name].js'
 	},
 	watch: !isProd,
-	plugins: isProd ? [...commonPlugins, prodPlugins] : commonPlugins,
+	plugins: isProd ? [...commonPlugins, ...prodPlugins] : commonPlugins,
 	module: {
 		loaders: [
 			{
