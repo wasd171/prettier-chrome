@@ -17,12 +17,7 @@
 		"module": "es6",
 		"moduleResolution": "node",
 		"pretty": true,
-		"target": "ES2016",
-		"jsx": "react",
-		"experimentalDecorators": true,
-		"paths": {
-			"~/*": ["*"]
-		}
+		"target": "es5"
 	},
 	"formatCodeOptions": {
 		"indentSize": 4,
